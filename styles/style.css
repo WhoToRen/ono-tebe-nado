@@ -33,7 +33,8 @@
 }
 
 .header__links-list-item {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   padding-left: 2px;
   padding-right: 0px;
 }
@@ -41,8 +42,7 @@
 .header__link {
   text-decoration: none;
   color: #000;
-  border-bottom: 1px solid black;
-  padding-bottom: 1px;
+  text-underline-offset: 2px;
 }
 
 .header__logo {
@@ -70,9 +70,8 @@
 }
 
 .address_link {
-	text-decoration: none;
-  padding-bottom: 1px;
-	border-bottom: 1px solid black;
+	text-decoration: underline;
+  text-underline-offset: 4px;
   font-family: Raleway, sans-serif;
   color: #000;
   font-size: 18px;
@@ -286,8 +285,8 @@
 }
 
 .lots__look-more-link {
-  text-decoration: none;
-  border-bottom: solid 1px black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   margin-top: 30px;
   padding-bottom: 3px;
   margin-left: 40px;
@@ -385,8 +384,8 @@
 
 .footer__menu-link {
   color: #000;
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   padding-bottom: 1px;
 }
 
