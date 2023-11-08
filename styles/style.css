@@ -48,19 +48,17 @@
   margin-right: 151px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 240px;
   line-height: 24.3px;
   font-family: Raleway, sans-serif;
+  font-style: normal;
   color: #000;
   font-size: 18px;
-}
-
-.address_info {
-  font-style: normal;
+  gap: 1px;
 }
 
 .address_link {
@@ -200,6 +198,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
+  gap: 5px;
 }
 
 .card__link {
