@@ -43,7 +43,7 @@
 
 .header__logo {
   display: block;
-  width: 131px;
+  width: 136px;
   height: 105px;
   margin-right: 151px;
 }
@@ -129,7 +129,6 @@
   justify-content: end;
   z-index: 3;
   position: relative;
-  gap: 77px;
 }
 
 .cover__description-text {
@@ -142,6 +141,7 @@
   text-transform: uppercase;
   word-spacing: 18px;
   margin-top: 12px;
+  margin-right: 77px;
 }
 
 .bet-button {
